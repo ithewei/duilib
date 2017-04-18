@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="1000,600" caption="0,0,0,36" roundcorner="4,4" >
+	<VerticalLayout inset="4,0,4,4" bkimage="file='winbk.bmp' corner='4,48,4,4' mask='#FFFF00FF'" >
+		<HorizontalLayout height="32" inset="2,2,0,0">
+			<Label text="NVR Station" width="80" />
+			<Control />
+			<Button name="closebtn" width="42" maxheight="18" tooltip="退出程序" normalimage="file='frame_btn_close_normal.bmp' mask='#FFFF00FF'" hotimage="file='frame_btn_close_hot.bmp' mask='#FFFF00FF'" pushedimage="file='frame_btn_close_down.bmp' mask='#FFFF00FF'"/>
+		</HorizontalLayout>
+		<VerticalLayout>
+			<Label text = "This is a test XML!" />
+			<Label text = "时间刻度条控件使用说明：左键拖动添加时间段、右键单击删除时间段、鼠标滚轮缩放时间轴"  />
+			<HorizontalLayout height="50">
+				<Label text = "星期日：" />
+				<TimeScaleBar name="Sunday" width="800" height="30" bordersize="1" bordercolor="0xFF808080" bkcolor="0xFFFFFFFF"
+					sideblank="10" scalelinecolor="0xFFFF0000" scaletextcolor="0xFFFF0000" periodcolor="0x80FFFFFF" periodbordercolor="0xFFFFFF00" 
+					maxperiod="8" precision="60" />
+			</HorizontalLayout>
+			<HorizontalLayout height="50">
+				<Label text = "星期一：" />
+				<TimeScaleBar name="Monday" width="800" height="30" bordersize="1" bordercolor="0xFF808080" bkcolor="0xFF808080"
+					sideblank="10" scalelinecolor="0xFF00FF00" scaletextcolor="0xFF00FF00" periodcolor="0x80000000" periodbordercolor="0xFFFFFF00" 
+					maxperiod="8" precision="300" />
+			</HorizontalLayout>
+			<HorizontalLayout height="50">
+				<Label text = "星期二：" />
+				<TimeScaleBar name="Tuesday" width="800" height="30" bordersize="1" bordercolor="0xFF808080" bkcolor="0xFFC0C0C0"
+					sideblank="10" scalelinecolor="0xFFFF0000" scaletextcolor="0xFFFF0000" periodcolor="0x80000000" periodbordercolor="0xFFFFFF00" 
+					maxperiod="8" precision="600" />
+			</HorizontalLayout>
+			<HorizontalLayout height="50">
+				<Label text = "星期三：" />
+				<TimeScaleBar name="Wednesday" width="800" height="30" bordersize="1" bordercolor="0xFF808080" bkcolor="0xFFFFFFFF"
+					sideblank="10" scalelinecolor="0xFFFF0000" scaletextcolor="0xFFFF0000" periodcolor="0x80FFFFFF" periodbordercolor="0xFFFFFF00" 
+					maxperiod="8" precision="60" />
+			</HorizontalLayout>
+			<HorizontalLayout height="50">
+				<Label text = "星期四：" />
+				<TimeScaleBar name="Thursday" width="800" height="30" bordersize="1" bordercolor="0xFF808080" bkcolor="0xFFFFFFFF"
+					sideblank="10" scalelinecolor="0xFFFF0000" scaletextcolor="0xFFFF0000" periodcolor="0x80FFFFFF" periodbordercolor="0xFFFFFF00" 
+					maxperiod="8" precision="60" />
+			</HorizontalLayout>
+			<HorizontalLayout height="50">
+				<Label text = "星期五：" />
+				<TimeScaleBar name="Friday" width="800" height="30" bordersize="1" bordercolor="0xFF808080" bkcolor="0xFFFFFFFF"
+					sideblank="10" scalelinecolor="0xFFFF0000" scaletextcolor="0xFFFF0000" periodcolor="0x80FFFFFF" periodbordercolor="0xFFFFFF00" 
+					maxperiod="8" precision="60" />
+			</HorizontalLayout>
+			<HorizontalLayout height="50">
+				<Label text = "星期六：" />
+				<TimeScaleBar name="Saturday" width="800" height="30" bordersize="1" bordercolor="0xFF808080" bkcolor="0xFFFFFFFF"
+					sideblank="10" scalelinecolor="0xFFFF0000" scaletextcolor="0xFFFF0000" periodcolor="0x80FFFFFF" periodbordercolor="0xFFFFFF00" 
+					maxperiod="8" precision="60" />
+			</HorizontalLayout>
+			<Control />
+		</VerticalLayout>
+    </VerticalLayout>
+</Window>
