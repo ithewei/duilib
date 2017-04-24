@@ -51,6 +51,7 @@
 					sideblank="10" scalelinecolor="0xFFFF0000" scaletextcolor="0xFFFF0000" periodcolor="0x80FFFFFF" periodbordercolor="0xFFFFFF00" 
 					maxperiod="8" precision="60" />
 			</HorizontalLayout>
+			<Wnd width="800" height="30" bordersize="1" bordercolor="0xFF808080" bkcolor="0xFFFFFF00" />
 			<Control />
 		</VerticalLayout>
     </VerticalLayout>

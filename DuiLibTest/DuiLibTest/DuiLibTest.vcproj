@@ -214,6 +214,10 @@
 				RelativePath=".\UITimeScaleBar.h"
 				>
 			</File>
+			<File
+				RelativePath=".\UIWnd.h"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="资源文件"
