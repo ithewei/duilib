@@ -28,3 +28,10 @@ FlashDemo/FlashDemo.vcproj.wengmq-PC.wengmq.user
 QQDemo/Debug/mt.dep
 *.dep
 *.map
+*.suo
+*.user
+*Debug
+*.exe
+lib
+bin/*.dll
+bin/*.ilk
