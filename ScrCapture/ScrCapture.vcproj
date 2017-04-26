@@ -435,6 +435,18 @@
 				</FileConfiguration>
 			</File>
 			<File
+				RelativePath=".\Canvas.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CanvasContainer.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ScrCaptureWnd.cpp"
+				>
+			</File>
+			<File
 				RelativePath="StdAfx.cpp"
 				>
 				<FileConfiguration
@@ -474,13 +486,33 @@
 					/>
 				</FileConfiguration>
 			</File>
+			<File
+				RelativePath=".\Util.cpp"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Header Files"
 			Filter="h;hpp;hxx;hm;inl"
 			>
 			<File
+				RelativePath=".\Canvas.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CanvasContainer.h"
+				>
+			</File>
+			<File
+				RelativePath=".\ScrCaptureWnd.h"
+				>
+			</File>
+			<File
 				RelativePath="StdAfx.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Util.h"
 				>
 			</File>
 		</Filter>
